@@ -9,3 +9,6 @@ ng new NOME
 
 #executar
 ng serve
+
+#componetes (cria dentro da pasta app)
+ng generate component PASTA/NOME
