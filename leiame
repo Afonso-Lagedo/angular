@@ -1,0 +1,11 @@
+#aula3
+https://www.youtube.com/watch?v=77zgi3kST90&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=3
+
+#instalação (forma global)
+npm install -g @angular/cli
+
+#criar projeto
+ng new NOME
+
+#executar
+ng serve
