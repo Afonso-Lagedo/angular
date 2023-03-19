@@ -6,7 +6,19 @@ import { Component} from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  nomePai = 'COMPONETE PAI';
+  jogador = {
+    nome: "Afonso",
+    idade: 29,
+    posicao: "QB"
+  }
+
+  time:string='Monsters';
+
+  campeonato = {
+    nome: "SPFL",
+    divisao: "ouro",
+    ano: 2023
+  }
   
   title = 'angular';
 }

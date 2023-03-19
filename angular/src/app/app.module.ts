@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PrimeiroComponent } from './componentes/primeiro/primeiro.component';
 import { ParenteComponent } from './componentes/parente/parente.component';
+import { CampeonatoComponent } from './componentes/campeonato/campeonato.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimeiroComponent,
-    ParenteComponent
+    ParenteComponent,
+    CampeonatoComponent
   ],
   imports: [
     BrowserModule,

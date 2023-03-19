@@ -6,5 +6,6 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./parente.component.css']
 })
 export class ParenteComponent {
-  @Input() infoEnviada:string=''; //Iniciando vazia
+  @Input() jogador!: {nome:string, idade:number, posicao:string}; //! exclamação serve para inicialização do dado 
+  @Input() time:string= "";
 }
