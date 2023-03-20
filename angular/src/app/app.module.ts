@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PrimeiroComponent } from './componentes/primeiro/primeiro.component';
 import { ParenteComponent } from './componentes/parente/parente.component';
 import { CampeonatoComponent } from './componentes/campeonato/campeonato.component';
+import { DiretivaComponent } from './componentes/diretiva/diretiva.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimeiroComponent,
     ParenteComponent,
-    CampeonatoComponent
+    CampeonatoComponent,
+    DiretivaComponent
   ],
   imports: [
     BrowserModule,
