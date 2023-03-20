@@ -1,0 +1,14 @@
+<div class="separador">
+    <div *ngIf="variavel">Estamos mostrando isso porque foi permetido</div>
+    <div *ngIf="variavel2 === 1">Estamos exibindo isso se a comparação for verdadeira</div>
+
+    <div *ngIf="varTeste === 0; else acaoElse">IF</div>
+    <ng-template #acaoElse><!--ELSE-->
+        ELSE
+    </ng-template>
+
+    <div *ngIf="varTeste === 1; else acaoElse">IF</div>
+    <ng-template #acaoElse><!--ELSE-->
+        ELSE
+    </ng-template>
+</div>
