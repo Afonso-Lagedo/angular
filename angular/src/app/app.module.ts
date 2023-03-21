@@ -11,6 +11,10 @@ import { CondicionalComponent } from './componentes/condicional/condicional.comp
 import { EventoComponent } from './componentes/evento/evento.component';
 import { EmissorComponent } from './componentes/emissor/emissor.component';
 import { EscolhaNumComponent } from './componentes/escolha-num/escolha-num.component';
+import { Emissor2Component } from './componentes/emissor2/emissor2.component';
+import { Escolha2Component } from './componentes/escolha2/escolha2.component';
+import { Escolha3Component } from './componentes/escolha3/escolha3.component';
+import { Emissor3Component } from './componentes/emissor3/emissor3.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { EscolhaNumComponent } from './componentes/escolha-num/escolha-num.compo
     CondicionalComponent,
     EventoComponent,
     EmissorComponent,
-    EscolhaNumComponent
+    EscolhaNumComponent,
+    Emissor2Component,
+    Escolha2Component,
+    Escolha3Component,
+    Emissor3Component
   ],
   imports: [
     BrowserModule,
