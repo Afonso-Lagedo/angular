@@ -8,6 +8,7 @@ import { ParenteComponent } from './componentes/parente/parente.component';
 import { CampeonatoComponent } from './componentes/campeonato/campeonato.component';
 import { DiretivaComponent } from './componentes/diretiva/diretiva.component';
 import { CondicionalComponent } from './componentes/condicional/condicional.component';
+import { EventoComponent } from './componentes/evento/evento.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CondicionalComponent } from './componentes/condicional/condicional.comp
     ParenteComponent,
     CampeonatoComponent,
     DiretivaComponent,
-    CondicionalComponent
+    CondicionalComponent,
+    EventoComponent
   ],
   imports: [
     BrowserModule,
