@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Comida } from 'src/app/Comidas';//interface
 
 @Component({
   selector: 'app-lista',
@@ -6,10 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./lista.component.css']
 })
 export class ListaComponent {
-  comidas=[
-    {nome: 'prato feito', tipo:'almoço'},
-    {nome: 'açaí', tipo:'sobremesa'},
-    {nome: 'teste-comida', tipo:'teste'},
+  comidas: Comida[]=[
+    {nome: 'prato feito', tipo:'almoço', preco:10},
+    {nome: 'açaí', tipo:'sobremesa', preco:5},
+    {nome: 'teste-comida', tipo:'teste', preco:1},
   ];
+
+  preco='';
+  
+  mostraPreco(comida:Comida): void{
+    this.preco = `A ${comida.nome} custa ${comida.preco}`;
+  }
 
 }
