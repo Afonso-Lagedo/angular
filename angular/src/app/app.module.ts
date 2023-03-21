@@ -9,6 +9,8 @@ import { CampeonatoComponent } from './componentes/campeonato/campeonato.compone
 import { DiretivaComponent } from './componentes/diretiva/diretiva.component';
 import { CondicionalComponent } from './componentes/condicional/condicional.component';
 import { EventoComponent } from './componentes/evento/evento.component';
+import { EmissorComponent } from './componentes/emissor/emissor.component';
+import { EscolhaNumComponent } from './componentes/escolha-num/escolha-num.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { EventoComponent } from './componentes/evento/evento.component';
     CampeonatoComponent,
     DiretivaComponent,
     CondicionalComponent,
-    EventoComponent
+    EventoComponent,
+    EmissorComponent,
+    EscolhaNumComponent
   ],
   imports: [
     BrowserModule,
