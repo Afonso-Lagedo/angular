@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./primeiro.component.css']
 })
 export class PrimeiroComponent {
-  titulo: string = 'Informações Jogadores';
+  titulo: string = 'Informações';
 }
