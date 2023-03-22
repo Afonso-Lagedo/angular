@@ -4,8 +4,11 @@
         <li *ngFor="let a of comidas">
             NOME: {{a.nome}} - TIPO: {{a.tipo}}
             <button (click)="mostraPreco(a)">mostra preço</button>
+            <button (click)="removeComida(a)">Remover</button>
+
         </li>
     </ul>
 
     <p> {{preco}} </p>
+
 </div>

@@ -15,3 +15,6 @@ ng serve
 
 #componetes (cria dentro da pasta app)
 ng generate component PASTA/NOME
+
+#services
+ng generate service PASTA/NOME

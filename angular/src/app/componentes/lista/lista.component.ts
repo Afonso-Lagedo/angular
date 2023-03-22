@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Comida } from 'src/app/Comidas';//interface
+import { ListaService } from 'src/app/services/lista.service';
 
 @Component({
   selector: 'app-lista',
@@ -18,5 +19,12 @@ export class ListaComponent {
   mostraPreco(comida:Comida): void{
     this.preco = `A ${comida.nome} custa ${comida.preco}`;
   }
+
+  removeComida(comida:Comida){
+    console.log('Removendo ...');
+    this.comidas=this.listaService.remove(this.comidas, comida); //função do service
+  }
+
+  constructor(private listaService: ListaService){}
 
 }
