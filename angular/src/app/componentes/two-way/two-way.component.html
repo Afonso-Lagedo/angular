@@ -1,0 +1,10 @@
+<div class="separador">
+    <p>two-way</p>
+    <form>
+        <input type="text" [(ngModel)]="nome" name="nome" />
+        <input type="submit" value="Enviar" />
+    </form>
+    <div *ngIf=" nome !=='' ">
+        <p>Valor enviado: {{nome}}</p>
+    </div>
+</div>

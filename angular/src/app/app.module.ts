@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +18,7 @@ import { Escolha3Component } from './componentes/escolha3/escolha3.component';
 import { Emissor3Component } from './componentes/emissor3/emissor3.component';
 import { ListaComponent } from './componentes/lista/lista.component';
 import { PipeComponent } from './componentes/pipe/pipe.component';
+import { TwoWayComponent } from './componentes/two-way/two-way.component';
 
 @NgModule({
   declarations: [
@@ -34,11 +36,13 @@ import { PipeComponent } from './componentes/pipe/pipe.component';
     Escolha3Component,
     Emissor3Component,
     ListaComponent,
-    PipeComponent
+    PipeComponent,
+    TwoWayComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
