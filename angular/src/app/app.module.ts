@@ -22,6 +22,7 @@ import { ListaComponent } from './componentes/lista/lista.component';
 import { PipeComponent } from './componentes/pipe/pipe.component';
 import { TwoWayComponent } from './componentes/two-way/two-way.component';
 import { ListaTwoComponent } from './componentes/lista-two/lista-two.component';
+import { DetalheComponent } from './componentes/detalhe/detalhe.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { ListaTwoComponent } from './componentes/lista-two/lista-two.component';
     ListaComponent,
     PipeComponent,
     TwoWayComponent,
-    ListaTwoComponent
+    ListaTwoComponent,
+    DetalheComponent
   ],
   imports: [
     BrowserModule,

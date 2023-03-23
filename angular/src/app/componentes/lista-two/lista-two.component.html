@@ -2,7 +2,7 @@
     <h3>Roupas</h3>
     <ul>
         <li *ngFor="let a of roupas">
-            NOME: {{a.nome}} - TIPO:{{a.tipo}}            
+            NOME: <a routerLink="/listaTwo/{{a.id}}">{{a.nome}}</a> - TIPO:{{a.tipo}}            
             <button (click)="mostraPreco(a)">mostra preço</button>
             <button (click)="removeRoupa(a)">Remover</button>
         </li>

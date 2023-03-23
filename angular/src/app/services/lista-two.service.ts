@@ -18,4 +18,8 @@ export class ListaTwoService {
   getAll():Observable<Roupa[]>{
     return this.http.get<Roupa[]>(this.apiUrl);
   }
+
+  getItem(id:number):Observable<Roupa>{
+    return this.http.get<Roupa>(`${this.apiUrl}/${id}`)
+  }
 }

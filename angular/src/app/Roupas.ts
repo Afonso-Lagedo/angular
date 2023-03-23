@@ -1,5 +1,6 @@
 export interface Roupa{
-    nome: string
-    tipo: string
-    preco: number
+    id:number;
+    nome: string;
+    tipo: string;
+    preco: number;
 }
