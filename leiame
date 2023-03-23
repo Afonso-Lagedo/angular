@@ -18,3 +18,10 @@ ng generate component PASTA/NOME
 
 #services
 ng generate service PASTA/NOME
+
+#Para simulação de API com arquivo JSON
+-npm i json-server
+-arquivo na raíz do projeto db.json
+-package.json criar o script para apontamento "server"
+-importar HttpClientModule no app.module.ts
+- RUN: npm run server

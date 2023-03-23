@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { PrimeiroComponent } from './componentes/primeiro/primeiro.component';
@@ -20,6 +21,7 @@ import { Emissor3Component } from './componentes/emissor3/emissor3.component';
 import { ListaComponent } from './componentes/lista/lista.component';
 import { PipeComponent } from './componentes/pipe/pipe.component';
 import { TwoWayComponent } from './componentes/two-way/two-way.component';
+import { ListaTwoComponent } from './componentes/lista-two/lista-two.component';
 
 @NgModule({
   declarations: [
@@ -38,12 +40,14 @@ import { TwoWayComponent } from './componentes/two-way/two-way.component';
     Emissor3Component,
     ListaComponent,
     PipeComponent,
-    TwoWayComponent
+    TwoWayComponent,
+    ListaTwoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

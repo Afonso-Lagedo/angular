@@ -1,0 +1,12 @@
+<div class="separador">
+    <h3>Roupas</h3>
+    <ul>
+        <li *ngFor="let a of roupas">
+            NOME: {{a.nome}} - TIPO:{{a.tipo}}            
+            <button (click)="mostraPreco(a)">mostra preço</button>
+            <button (click)="removeRoupa(a)">Remover</button>
+        </li>
+    </ul>
+
+    <h3>{{preco}}</h3>
+</div>
