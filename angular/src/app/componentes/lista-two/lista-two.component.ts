@@ -17,8 +17,8 @@ export class ListaTwoComponent {
   }
 
   removeRoupa(roupa:Roupa){
-    console.log('Removendo ...');
-    this.roupas=this.listaTwoService.remove(this.roupas, roupa); //função do service
+    this.roupas = this.roupas.filter((c) => roupa.nome !== c.nome);
+    this.listaTwoService.remove(roupa.id).subscribe(); //função do service
   }
 
   constructor(private listaTwoService: ListaTwoService){

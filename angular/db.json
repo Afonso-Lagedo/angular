@@ -1,7 +1,16 @@
 {
-    "roupas":[
-        {"id": 1, "nome": "NomeTESTE", "tipo": "Tipo1", "preco":1},
-        {"id": 2, "nome": "Nome2", "tipo": "Tipo2", "preco":2},
-        {"id": 3, "nome": "Nome3", "tipo": "Tipo3", "preco":3}
-    ]
+  "roupas": [
+    {
+      "id": 2,
+      "nome": "Nome2",
+      "tipo": "Tipo2",
+      "preco": 2
+    },
+    {
+      "id": 3,
+      "nome": "Nome3",
+      "tipo": "Tipo3",
+      "preco": 3
+    }
+  ]
 }

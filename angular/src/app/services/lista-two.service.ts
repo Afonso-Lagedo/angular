@@ -11,8 +11,8 @@ export class ListaTwoService {
 
   constructor(private http:HttpClient) { }
 
-  remove(roupas:Roupa[], roupa:Roupa){
-    return roupas.filter((c) => roupa.nome !== c.nome);
+  remove(id:number){
+    return this.http.delete<Roupa>(`${this.apiUrl}/${id}`)
   }
 
   getAll():Observable<Roupa[]>{
